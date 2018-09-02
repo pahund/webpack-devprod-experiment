@@ -2,7 +2,7 @@
 
 With [webpack](https://webpack.js.org) 4, you can set `mode: 'production'` in your webpack config.
 
-In your code, check for development mode like this (see [index.js](index.js):
+In your code, check for development mode like this (see [index.js](index.js)):
 
     if (process.env.NODE_ENV === 'development') {
         console.log('********** DEVELOPMENT **********');

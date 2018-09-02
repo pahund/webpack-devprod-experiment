@@ -2,12 +2,11 @@
 
 With [webpack](https://webpack.js.org) 4, you can set `mode: 'production'` in your webpack config.
 
-In your code, check for development mode like this:
+In your code, check for development mode like this (see [index.js](index.js):
 
-if (process.env.NODE_ENV === 'development') {
-    /* development only */
-    alert('hiya!');
-}
+    if (process.env.NODE_ENV === 'development') {
+        console.log('********** DEVELOPMENT **********');
+    }
 
 When webpack creates a bundle with mode: 'production', all the code inside these if clauses, along with the if clauses themselves, will be automatically removed from the bundle.
 

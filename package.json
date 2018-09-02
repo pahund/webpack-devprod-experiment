@@ -1,0 +1,17 @@
+{
+  "name": "webpack-devprod-experiment",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-dev": "webpack --config webpack.config.dev.js",
+    "build-prod": "webpack --config webpack.config.prod.js"
+  },
+  "keywords": [],
+  "author": "Patrick Hund <pahund@team.mobile.de> (https://ebaytech.berlin/)",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}

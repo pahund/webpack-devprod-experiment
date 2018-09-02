@@ -19,6 +19,6 @@ I've made this repo to demonstrate. After checking out the code and installing d
 
 …to have webpack create a [bundle-dev.js](bundle-dev.js) and a [bundle-prod.js](bundle-prod.js) file, respectively.
 
-If you take a look at those bundles, you'll see that the log statement `********** PRODUCTION **********` is only included in the production bundle, and the log statement `********** DEVELOPMENT **********` only in the development bundle.
+If you take a look at those bundles, you'll see that the log statement `********** PRODUCTION **********` is only included in the [production bundle](bundle-prod.js), and the log statement `********** DEVELOPMENT **********` only in the [development bundle](bundle-dev.js).
 
 See related question on Stack Overflow: https://stackoverflow.com/questions/45776264/remove-some-code-lines-in-production-distribution-files
